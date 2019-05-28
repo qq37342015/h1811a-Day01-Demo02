@@ -10,7 +10,10 @@ public class AServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        System.out.println("123123");
         resp.getWriter().write("Hello Servlet!");
+
     }
 
     @Override
